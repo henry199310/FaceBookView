@@ -25,20 +25,20 @@ padding-top: 10px;
 color:white;
 }
 #page{
-max-width:980px;
-}
-#page ul{
-list-style: none;
+margin-left: 140px;
+max-width:1200px;
+float: left;
 }
 .page-header{
 border:1px ridge;
-width: 902px;
+width: 900px;
 height:350px;
 background-image: url("./12001030_1100758569944160_4575676958434776847_o.jpg");
 }
 .page_pic{
 float: left;
 margin-top: 140px;
+
 }
 .page_header_row1 {
 font-size: 27px;
@@ -59,79 +59,67 @@ border-right: 1px ridge;
 .page_header_row2 .nav-tabs{
 border-bottom: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+#page_main{
+float: left;
+}
 .page_main_left{
-	float: left;
-	width: 350px;
-
+float: left;
+width: 350px;
 }
 .page_main_left_row1{
-	padding-left: 15px;
-	padding-top: 10px;
-	padding-bottom: 6px;
+padding-left: 15px;
+padding-top: 10px;
+padding-bottom: 6px;
 }
 .page_main_left_row2{
-	padding-left: 15px;
-	padding-bottom: 5px;
+padding-left: 15px;
+padding-bottom: 5px;
 }
 .page_main_left_row3{
-	padding-top: 4px;
-	padding-left: 15px;	
+padding-top: 4px;
+padding-left: 15px;
 }
 .page_main_left_row4{
-	padding-top: 4px;
-	padding-left: 15px;	
+padding-top: 4px;
+padding-left: 15px;
 }
-
-
-
-
-
-
 .page_main_right{
-	margin-left: 30px;
-	float: left;
-	width: 521px;
+margin-left: 30px;
+float: left;
+width: 521px;
 }
 .page_main_right_row1{
-	padding: 0px;
+padding: 0px;
 }
 .page_main_right_row1 span{
-	margin-top: 14px;
-	margin-bottom: 14px;
-	padding-left: 10px;
+margin-top: 14px;
+margin-bottom: 14px;
+padding-left: 10px;
 }
 .border{
 border-bottom:1px ridge;
 }
 .page_main_right_row1 img{
-	padding:18px;
+padding:18px;
 }
 .page_main_right_row1 b{
- color:gray;
+color:gray;
 }
 .page_main_right_row1 button{
-	margin-top: 6px;
-	float: right;
-	margin-right: 10px;
-	margin-bottom: 10px;
+margin-top: 6px;
+float: right;
+margin-right: 10px;
+margin-bottom: 10px;
 }
+#page_left{
+position: fixed;
+top: 70px;
+left:1050px;
+}
+#page_left2{
+float: right;
 
-
-
-
-
-
-	
+position: fixed;
+top: 45px;
+left:1230px;
+}
